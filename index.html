@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Like I like</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__icons">
+                    <button><img src="img/icons.png" alt=""></button>
+                </div>
+                <div class="nav__lenguege">
+                    <div class="lenguage__text">RU / EN</div> 
+                    <div class="hamb" id="hamb">
+                        <img src="img/burger.png" alt="">
+                    </div>
+
+                    <div class="menu" id="menu">
+                        
+                        <div class="list__item item" >
+                            <a href="#"><img src="img/logo.png" alt="" style="width: 120px;"></a>
+                        </div>
+                        <div class="list__item item is-active" data-tab-name="tab-1">
+                            <a href="#tabs-menu">About us</a>
+                        </div>
+                        <div class="list__item item">
+                            <div class="item__text"><a href="#portfolio">Portfolio</a></div>
+                        </div>
+                        <div class="list__item item" data-tab-name="tab-2">
+                            <a href="#tabs-menu">Services</a>
+                        </div>
+                        <div class="list__item item" data-tab-name="tab-3">
+                            <a href="#tabs-menu">Contact us</a>
+                        </div>
+                        <div class="list__item item">
+                            <div class="item__text"><a href="#news">News</a></div>
+                        </div>
+    
+                    </div>
+
+                    <div class="popup" id="popup">
+							
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="screen1">
+                <div class="screen1__logo">
+                    <img src="img/logo.png" alt="" style="width: 100%;">
+                </div>
+                <div class="screen1__text">Architectural and construction company</div>
+                <div class="screen1__arrow">
+                    <button><img src="img/arrow-bottom.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-color">
+        <div class="container">
+            <div class="slider">
+                <div class="slider__text slider__text_size" id="change-size">our story</div>
+                <div class="slider__text slider__text_weight" id="change-weight">// ABOUT US</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="tabs" id="tabs-menu">
+
+                <div class="tabs-nav__list list">
+                        
+                    <div class="list__item item is-active" data-tab-name="tab-1">
+                        About us
+                    </div>
+                    <div class="list__item item" data-tab-name="tab-2">
+                        Services
+                    </div>
+                    <div class="list__item item" data-tab-name="tab-3">
+                        Contact us
+                    </div>
+
+                </div>
+
+                <div class="tabs-content">
+
+                    <!-- о компании -->
+                    <div class="screen-about tab is-active tab-1">
+                        <div class="screen-about__like-i-like like-i-like">
+                            <div class="like-i-like__logo">
+                                <img src="img/logo1.png" alt="">
+                            </div>
+                            <div class="like-i-like__text"><span>LIKE I LIKE —</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ornare ex, nec euismod neque blandit eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed lobortis neque, a commodo nunc. Maecenas at rutrum justo. Ut ac leo neque. </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- сервисы -->
+                    <div class="services tab tab-2">
+                        <div class="services__accordion">
+
+                            <div class="accordion__head accord-active">
+                                <div class="head__arrow">
+                                    <img src="img/accordion-arrow.png" alt="">
+                                </div>
+                                <div class="head__text"> DESIGN</div>
+                            </div>
+
+                            <div class="accordion__inner accord-active">
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion__head ">
+                                <div class="head__arrow ">
+                                    <img src="img/accordion-arrow.png" alt="">
+                                </div>
+                                <div class="head__text"> RENOVATION</div>
+                            </div>
+
+                            <div class="accordion__inner">
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                                <div class="interior-design">
+                                    <div class="interior-design__text">interior design</div>
+                                    <div class="interior-design__cost">60$/м2</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                    </div>
+
+                    <!-- контакты -->
+                    <div class="contact-us tab tab-3">
+                        <div class="contact-us__form-info">
+                            <div class="form-info__img">
+                                <img src="img/map.png" alt="" style="width: 100%; height: 100%;">
+                            </div>
+
+                            <div class="form-info__contacts">
+
+                                <div class="contacts__info">
+                                    <div class="info__object">
+                                        <div class="object__icon">
+                                            <img src="img/icon1.png" alt="">
+                                        </div>
+                                        <div class="object__text object__text_padding1">Moscow, Tverskaya st. 4</div>
+                                    </div>
+
+                                    <div class="info__object">
+                                        <div class="object__icon">
+                                            <img src="img/icon2.png" alt="">
+                                        </div>
+                                        <div class="object__text object__text_padding2">+7 (977) 123-45-67</div>
+                                    </div>
+
+                                    <div class="info__object">
+                                        <div class="object__icon">
+                                            <img src="img/icon3.png" alt="">
+                                        </div>
+                                        <div class="object__text object__text_padding3">likeilike@gmail.com</div>
+                                    </div>
+                                </div>
+
+                                <div class="contacts__form">
+                                    <form action="">
+                                        <input type="text" placeholder="First name" class="input-text">
+                                        <input type="email" placeholder="+7 (9__) ___ __ __" class="input-email">
+                                        <button>CALL ME</button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-color">
+        <div class="container">
+            <div class="slider">
+                <div class="slider__text slider__text_size">our works</div>
+                <div class="slider__text slider__text_weight">// PORTFOLIO</div>
+            </div>
+        </div>
+    </section>
+    
+    <!--портфолио -->
+    <section> 
+        <div class="container">
+            <div class="portfolio" id="portfolio">
+                <div class="portfolio__item">
+                    <div class="item__img">
+                        <img src="img/portfolio1.png" alt="" class="adapt-img">
+                    </div>
+                    <div class="item__img">
+                        <img src="img/portfolio2.png" alt="" class="adapt-img">
+                    </div>
+                    <div class="item__img">
+                        <img src="img/portfolio3.png" alt="" class="adapt-img">
+                    </div>
+                    <div class="item__img">
+                        <img src="img/portfolio1.png" alt="" class="adapt-img">
+                    </div>
+                    <div class="item__img">
+                        <img src="img/portfolio2.png" alt="" class="adapt-img">
+                    </div>
+                    <div class="item__img">
+                        <img src="img/portfolio3.png" alt="" class="adapt-img">
+                    </div>
+                    <div class="item__img">
+                        <img src="img/portfolio1.png" alt="" class="adapt-img portfolio-item__hidden">
+                    </div>
+                    <div class="item__img">
+                        <img src="img/portfolio2.png" alt="" class="adapt-img portfolio-item__hidden">
+                    </div>
+                </div>
+
+                <div class="portfolio__button" data-target="modal" href="#">
+                    <button id="modal-portfolio__button">SEE ALL</button>
+                </div>
+<!-- тут слайдер в модальном окне -->
+
+            <div id="modal" class="modal">
+                <div class="modal__content">
+                    <span class="modal__close">&times;</span>
+                    <div class="modal__title">Это слайдер в модальном окне!</div>
+                    <div class="slider-js">
+                        <div class="slider-js__container">
+                            <img src="./img/portfolio1.png" alt="" class="slider-js__image fade" />
+                        </div>
+                        <div class="slider-js__controls">
+                            <button class="slider-js__nav slider-js__nav-left">&lt;</button>
+                            <button class="slider-js__nav slider-js__nav-right">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="modal__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum
+                        quam totam ex similique. Ea cupiditate sunt dolorem natus expedita
+                        harum voluptatum, libero quibusdam quaerat perferendis similique
+                        deleniti aliquid et.
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-color">
+        <div class="container">
+            <div class="slider">
+                <div class="slider__text slider__text_size">what's new</div>
+                <div class="slider__text slider__text_weight">// NEWS</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- новости -->
+    <section>
+        <div class="container">
+            <div class="news" id="news">
+
+                <div class="explore">
+                    <button data-flt-name="col" class="btn explore-active">Collectibles</button>
+                    <button data-flt-name="art" class="btn">Art</button>
+                    <button data-flt-name="ph" class="btn">Photography</button>
+                </div>
+
+                <div class="gallery">
+                    
+                        <div class="gallery__itm col">
+                            <div class="itm__img">
+                                <img src="img/news1.png" alt="" class="adapt-img">
+                            </div>
+                            <div class="itm__headline">Lorem ipsum</div>
+                            <div class="itm__reg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ornare ex, nec euismod neque blandit eu. </div>
+                            <div class="itm__button">
+                                <button>READ</button>
+                            </div>
+                        </div>
+
+                        <div class="gallery__itm col gallery__itm_hidden900">
+                            <div class="itm__img">
+                                <img src="img/news2.png" alt="" class="adapt-img">
+                            </div>
+                            <div class="itm__headline">Lorem ipsum</div>
+                            <div class="itm__reg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ornare ex, nec euismod neque blandit eu. </div>
+                            <div class="itm__button">
+                                <button>READ</button>
+                            </div>
+                        </div>
+
+                        <div class="gallery__itm col gallery__itm_hidden1200">
+                            <div class="itm__img">
+                                <img src="img/news.png" alt="" class="adapt-img">
+                            </div>
+                            <div class="itm__headline">Lorem ipsum</div>
+                            <div class="itm__reg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ornare ex, nec euismod neque blandit eu. </div>
+                            <div class="itm__button">
+                                <button>READ</button>
+                            </div>
+                        </div>
+
+                        <div class="gallery__itm art hide">
+                            <div class="itm__img">
+                                <img src="img/news.png" alt="" class="adapt-img">
+                            </div>
+                            <div class="itm__headline">Lorem ipsum</div>
+                            <div class="itm__reg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ornare ex, nec euismod neque blandit eu. </div>
+                            <div class="itm__button">
+                                <button>READ</button>
+                            </div>
+                        </div>
+
+                        <div class="gallery__itm art gallery__itm_hidden1200 hide">
+                            <div class="itm__img">
+                                <img src="img/news.png" alt="" class="adapt-img">
+                            </div>
+                            <div class="itm__headline">Lorem ipsum</div>
+                            <div class="itm__reg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ornare ex, nec euismod neque blandit eu. </div>
+                            <div class="itm__button">
+                                <button>READ</button>
+                            </div>
+                        </div>
+
+                        <div class="gallery__itm ph hide">
+                            <div class="itm__img">
+                                <img src="img/news2.png" alt="" class="adapt-img">
+                            </div>
+                            <div class="itm__headline">Lorem ipsum</div>
+                            <div class="itm__reg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ornare ex, nec euismod neque blandit eu. </div>
+                            <div class="itm__button">
+                                <button>READ</button>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+
+                <div class="footer__logo">
+                    <img src="img/logo.png" alt="" class="logo-size">
+                </div>
+
+                <div class="footer__links">
+                    <a href="#">Main</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#news">News</a>
+                </div>
+
+                <div class="footer__cont">
+                    <div class="cont__item">+7 (977) 123-45-67</div>
+                    <div class="cont__item">likeilike2012@gmail.com</div>
+                    <div class="cont__item">Moscow, Tverskaya st. 4</div>
+                </div>
+
+                <div class="footer__icons">
+                    <img src="img/icons.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cookies" id="cookies">
+        <div class="cookies__content">
+            Пользуясь нашим сайтом, вы соглашаетесь с тем, что
+            <a class="cookies__link" href="#">мы используем cookies</a>
+        </div>
+        <div class="cookies__button" id="cookies__button">Окей</div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
