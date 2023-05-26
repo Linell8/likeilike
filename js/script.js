@@ -40,7 +40,7 @@ window.addEventListener("DOMContentLoaded", function () {
     });
 
     const img = document.querySelector('.slider-js__image');
-    const imgArr = ['../img/portfolio1.png','../img/portfolio2.png','../img/portfolio3.png'];
+    const imgArr = ['./img/portfolio1.png','./img/portfolio2.png','./img/portfolio3.png'];
     let currentIndex = 0;
         
     function nextIndex(direction){
